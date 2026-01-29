@@ -17,7 +17,7 @@ Automated server provisioning scripts for Ubuntu/Debian servers. Installs and co
 ### One-Line Installation (Recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Maaniksharma/deployNewServer/refs/heads/main/script.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Maaniksharma/deployNewServer/main/script.sh -o script.sh && chmod +x script.sh && sudo ./script.sh
 ```
 
 ### What This Does
